@@ -32,7 +32,7 @@ def prim_mst(graph):
     return total_weight
 
 if __name__ == "__main__":
-    filename = 'main\islands.csv'
+    filename = "main\islands.csv"
     matrix = read_adjacency_matrix(filename)
     result = prim_mst(matrix)
     print("Мінімальна довжина кабелю:", result)
